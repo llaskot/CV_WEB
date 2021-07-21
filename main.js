@@ -11,28 +11,35 @@ let ind = 0;
 
 const activTwo = () => {
     firsIM.classList.remove('active');
+    thirIM.classList.remove('active');
     secIM.classList.add('active');
 
 }
 
-const activtree = () => {
+const activTree = () => {
+    firsIM.classList.remove('active');
     secIM.classList.remove('active');
     thirIM.classList.add('active');
   
 }
 
-const activeOne = () => {
+const activOne = () => {
+    secIM.classList.remove('active');
     thirIM.classList.remove('active');
     firsIM.classList.add('active');
-  
-
 }
+
+
+setTimeout(activTree, 10000);
+setTimeout(activOne, 15000);
+
+
  naME.onclick = function () {
     console.log(firsIM, naME);
     // setTimeout(activTwo, 1000);
     activTwo();
-    setTimeout(activtree, 1000);
-    setTimeout(activeOne, 3000);
+    setTimeout(activTree, 1000);
+    setTimeout(activOne, 3000);
  }
 
 
