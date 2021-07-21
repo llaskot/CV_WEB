@@ -30,8 +30,8 @@ const activOne = () => {
 }
 
 
-setTimeout(activTree, 10000);
-setTimeout(activOne, 15000);
+// setTimeout(activTree, 10000);
+// setTimeout(activOne, 15000);
 
 
  naME.onclick = function () {
