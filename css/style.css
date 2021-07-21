@@ -1,0 +1,291 @@
+* {
+    font-size: 1.05em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.spec {
+    font-size: 1.2em;
+}
+
+
+
+body {
+    
+    background-color: rgb(203, 204, 204)
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-style: black;
+    font-weight: 900;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 170%;
+}
+
+h3 {
+    font-family: 'Roboto Slab';
+    font-style: black;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+span {
+    font-style: black;
+    font-weight: 900;
+}
+
+
+@media (max-width:1100px){
+    .main{
+      
+        max-width: 675px;
+        padding: 1px 3px;
+        display: flex;
+        flex-flow: wrap;
+
+        flex-direction: column-reverse;
+    }
+    .header {
+        max-width: 675;
+        padding: 1px 3px;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+}
+
+
+@media (max-width:665px){
+.skills {
+    max-width: 400px;
+    padding: 1px 1px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+}
+
+
+.main {
+    
+    display: flex;
+    flex-direction: row;
+    max-width: 2200px;
+    margin: 2px auto;
+}
+
+.right {
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 2px;
+
+    
+
+}
+
+.left {
+    background-color: rgb(219, 231, 241);
+    text-align: left;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+    
+    text-align:  match-parent;
+    width: 100%;
+    margin: 2px;
+      
+}
+
+
+.header {
+    display: flex;
+    max-width: 2200px;
+    width: 100%;
+    margin: 0px auto;
+    padding: 2px;
+
+}
+
+.img {
+    text-align: center;
+    width: 100%;
+    margin: 7px;
+    background-color: rgb(218, 223, 248);
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+}
+
+.pict {
+    max-width: 100%
+   
+  
+}
+
+.contacts {
+    background-color: rgb(218, 223, 248);
+    text-align: left;
+    width: 100%;
+    margin: 7px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+
+}
+
+.cont_shell {
+    width: 100%;
+    margin: 0% 5% 0% 5%;
+    text-align:inherit;
+}
+
+.me {
+    background-color: rgb(218, 223, 248);
+    text-align: right ;
+    width: 100%;
+    margin: 7px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+  
+    
+}
+
+
+
+
+.work_shell {
+    background-color: rgb(219, 231, 241);
+    text-align: left;
+    width: 100%;
+    margin: 2px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+}
+
+.right_botom {
+    background-color: rgb(219, 231, 241);
+    width: 100%;
+    margin: 2px;
+    /* display: flex;
+    flex-direction: ; */
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+}
+
+.work_exp {
+    width: 100%;
+    margin: 0% 5% 0% 5%;
+}
+.educational {
+    text-align: left ;
+    width: 100%;
+    margin: -1% 5% 0% 5%;
+}
+
+.pers {
+    width: 100%;
+    margin: -1% 5% 0% 5%;
+}
+.person_qual {
+    background-color: rgb(219, 231, 241);
+    text-align: left;
+    width: 100%;
+    margin: 2px;
+    /* display: flex;
+    flex-direction: ; */
+    border-radius: 25px;
+    box-shadow: 10px 10px 44px -10px rgba(0,0,0,0.75);
+}
+
+
+
+
+
+.one.block {
+    display: flex;
+    margin: 0% 1%
+}
+
+
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.b_skil {
+    width: 100%;
+    margin: 0% 10% 0% 5%;
+}
+.t_skil {
+    width: 100%;
+}
+
+.lang {
+    width: 100%;
+    margin: 0% 10% 0% 5%;
+}
+
+
+
+
+.hed_line4 {
+    color: brown;
+   
+}
+h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+.flex-wrapper {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-wrapper {
+    /* max-width: 800px; */
+    width: 90%;
+    height: 90%;
+
+}
+
+
+
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
